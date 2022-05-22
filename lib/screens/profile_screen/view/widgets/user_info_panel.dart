@@ -37,7 +37,7 @@ class UserInfoPanel extends StatelessWidget {
             style: TextStyle(fontWeight: FontWeight.bold),
           ),
           Text('Flutter Developer | Musician'),
-          Text('www.artofmirage.com', style: TextStyle(color: Colors.blue)),
+          Text('www.manthankhandale.com', style: TextStyle(color: Colors.blue)),
         ],
       ),
     );

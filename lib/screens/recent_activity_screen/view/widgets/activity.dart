@@ -64,13 +64,14 @@ class Activity extends StatelessWidget {
             '$userName',
             style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
           ),
-          Text(
-            '$activityText',
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: TextStyle(fontSize: 15),
+          Expanded(
+            child: Text(
+              '$activityText',
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(fontSize: 15),
+            ),
           ),
-          Spacer(),
           Container(
             width: 50,
             height: 50,
